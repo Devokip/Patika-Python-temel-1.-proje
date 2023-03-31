@@ -6,3 +6,12 @@ def flatten(lst):
         else:
             flattened_lst.append(item)  # eleman doğrudan listeye ekle
     return flattened_lst
+#örnek kullanım
+#>>> lst = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+#>>> flatten(lst)
+#[1, 'a', 'cat', 2, 3, 'dog', 4, 5]
+
+
+
+
+
